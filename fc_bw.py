@@ -1,6 +1,5 @@
 import sys
 import os
-#imageCpy.raw
 r = ''; b = ''; g = '';
 bl = ''; y = ''; c = '';
 m = ''; w = ''
