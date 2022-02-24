@@ -1,16 +1,17 @@
 import sys
 import os
+#fc_bw.py is just fc but without color
 r = ''; b = ''; g = '';
 bl = ''; y = ''; c = '';
 m = ''; w = ''
 jcon = False
 pcon = False
 r_path = ''
-usage = 'Usage => fc.py [-f <FILEPATH>] [-t <FILETYPE>] [-h]'
+usage = 'Usage => fc_bwc.py [-f <FILEPATH>] [-t <FILETYPE>] [-h]'
 for i in range(len(sys.argv)):
     if '-h' in sys.argv:
         print(w+usage)
-        print(w+'\nFC: Carve out specific files from other files using headers and footers.\n')
+        print(w+'\nFC BW: Carve out specific files from other files using headers and footers.\n')
         print('required arguments:')
         print('  -f <FILEPATH>        One argument providing the path for the file to be read.\n')
         print('optional arguments:')
@@ -39,7 +40,7 @@ for i in range(len(sys.argv)):
 
 if r_path == '':
     print(w+usage)
-    print('    fc.py: error: the following arguments are required: -f <FILEPATH>')
+    print('    fc_bw.py: error: the following arguments are required: -f <FILEPATH>')
     print('    Try \'-h\' for help')
     exit()
 
