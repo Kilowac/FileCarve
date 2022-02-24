@@ -1,7 +1,6 @@
 import sys
 import os
 from colorama import init, deinit, Fore, Back, Style
-#imageCpy.raw
 init()
 print(Style.BRIGHT, end = '')
 r = Fore.RED; b = Fore.BLUE; g = Fore.GREEN;
@@ -62,7 +61,7 @@ elif jcon:
 elif pcon:
     rquery = w+'.pdf'
 
-print(notify+rquery+g+' files\n'+Fore.RESET)
+print(notify+rquery+g+' files\n')
 
 while True:
     print(w+'('+g+'?'+w+')' +w+ ' What path would you like to write the files to?\n'+y+'    >> '+w, end = '')
