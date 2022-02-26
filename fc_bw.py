@@ -1,3 +1,4 @@
+#See fc.py for comments
 import sys
 import os
 #fc_bw.py is just fc but without color
