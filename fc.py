@@ -155,7 +155,7 @@ while data:
             print(g+'['+c+'~'+g+'] '+w+ ext + c + ' file header found.')
             strt = hdr(data)
             b_proc = True
-            print(g+'['+y+'*'+g+'] Building '+w+ext+g+' file...')
+            print(g+'['+y+'*'+g+'] Building '+w+ext+g+' file...'+w)
             w_file = w_path + file_type
             f = open(w_file, "wb")
     if b_proc:
