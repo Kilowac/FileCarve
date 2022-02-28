@@ -12,7 +12,7 @@ usage = 'Usage => fc_bwc.py [-f <FILEPATH>] [-t <FILETYPE>] [-h]'
 for i in range(len(sys.argv)):
     if '-h' in sys.argv:
         print(w+usage)
-        print(w+'\nFC BW: Carve out specific files from other files using headers and footers.\n')
+        print(w+'\nFC BW: Carve out specific files from other files using headers and footers. This version of the program does not utilize the colorama library.\n')
         print('required arguments:')
         print('  -f <FILEPATH>        One argument providing the path for the file to be read.\n')
         print('optional arguments:')
